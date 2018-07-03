@@ -1,0 +1,127 @@
+header{
+	background: black;
+    position: fixed;
+	top: 0;
+	z-index: 9999; /* cache le reste des document */
+}
+
+.titre{
+	color: gold;
+    margin-left: 20px;
+}
+
+.nav li a{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.nav li a:hover{
+ color: black;
+ background-color: #DBA901;  /* doré */ 
+}
+
+
+body{
+    font-family: helvetica;
+	font-size: 16px;
+	margin-top: 80px;
+	/*margin: espace a l'exterieur de mon bloc */
+	/*padding: espace a l''interieur' de mon bloc */
+	
+}
+
+footer{
+    padding: 20px;
+	text-align: center;
+}
+
+#accueil{
+	text-align: center;
+	background-color: rgb(46, 44, 44);
+}
+
+#parcours{
+	background-color: #2E2E2E;
+}
+
+#competences{
+	background-color: rgb(46, 44, 44);
+}
+
+#contact{
+	background-color: #2E2E2E;
+	color: white;
+	text-align: center;
+}
+
+
+#accueil, #parcours, #competences, #contact{
+padding-top: 30px;
+padding-bottom: 20px;
+width: 100%;
+}
+
+header, footer, body{
+	margin: auto;
+	width: 90%	
+}
+
+
+h2{				/* selects the bb element if it's a direct child of aa. */
+	text-align: center;
+}
+
+.list{
+	padding-left: 30%;     	/*padding: espace a l''interieur' de mon bloc */
+}
+
+.img-circle{
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.barre {
+    border: 2px solid #a1a1a1;
+    margin: 2px 0px 10px 10px;
+    background: #dddddd;
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    float: right;
+}
+
+.faible {
+    background: #FE642E;
+    height:100%;
+    width:20%;
+    border-radius: 25px;
+}
+
+.moyen {
+    background: #FFBF00;
+    height:100%;
+    width:50%;
+    border-radius: 25px;
+}
+
+.bien {
+    background: #9AFE2E;
+    height:100%;
+    width:60%;
+    border-radius: 25px;
+}
+
+.excelent {
+    background: #01DF01;
+    height:100%;
+    width:80%;
+    border-radius: 25px;
+}
+
+.row{
+	font-family: helvetica;
+	font-size: 21px;
+}

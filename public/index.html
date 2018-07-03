@@ -6,12 +6,144 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>moncv1</title>
-  </head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="main.css" />
+  <script type="text/javascript" src="main.js"></script>
+
+
+ </head>
+        
+  <header>
+      <div class="row">
+          <div class="col-md-6"><h1 class="titre"> Mon CV </h1></div>
+          <div class="col-md-6">
+               <!--  --------------------------------  MENU  --------------------------------------- --> 
+                    <ul class="nav nav-pills">
+                      <li><a href="#accueil" class="normal">Accueil</a></li>
+                      <li><a href="#parcours" class="normal">Parcours</a></li>
+                      <li><a href="#competences" class="normal">Competences</a></li>
+                      <li><a href="#contact" class="normal">Contact</a></li>
+                    </ul>
+          </div>
+      </div>
+  </header>
+
   <body>
-    <noscript>
-      <strong>We're sorry but moncv1 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+      <div class="container-fluid">
+      <!--  --------------------------------  CONTENUE  --------------------------------------- --> 
+          <div id="accueil">
+           <br> <br>
+              <img src="1.JPG" alt="Hani" class="img-circle">
+
+              <p>Bonjour ! Je m’appelle Younes Hani <br>
+              J’ai 26 ans et  <br>
+              Je suis étudiant à la HEG-ARC <br>
+              </p>
+
+          </div>
+
+
+          <div id="parcours">
+              <h2> Parcours </h2> <br>
+                  <div class="list">
+                        FORMATIONS
+                            <ul><br/>
+                              <li> Étudiant à ARC-NEUCHATEL 2016/2020 </li>
+                              <li> Étudiant à la HEIG-VD 2014/2016</li>
+                              <li> Diplôme de technicien spécialise en réseau informatique 2010/2012</li>
+                              <li> Baccalauréat série Sciences Expérimentales Option Sciences physique 2008/2010</li>
+                            </ul>
+                  </div>
+<br/>
+<br/>
+                  <div class="list">
+                        EXPERIENCE
+
+                            <ul><div align="justify"><br/>
+                              <li> SOFA | Sicotel : Stage en telecommunication 2010/2012.</li>
+                              <li> Ixion			: Agent de telecommunication 2015/2016.</li>
+                              <li> Swissqote 		: Support Informatique L1/L2 2016/2018.</li> 
+              <li> aéroport genève: Chef de projet 2018.</li></div>    
+                            </ul>
+                  </div>
+          </div>
+
+
+          <div id="competences">
+              <h2> Competences </h2> <br>
+              <div class="row">
+                  <div class="col-xs-6 col-md-6">
+                      <div class="barre">
+                          <div class="moyen"></div>
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-md-6">
+                       SQLSERVER, ORACLE, MYSQL.
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-xs-6 col-md-6">
+                      <div class="barre">
+                          <div class="excelent"></div>
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-md-6">
+                       Réseaux Informatique 
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-xs-6 col-md-6">
+                      <div class="barre">
+                          <div class="faible"></div>
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-md-6">
+                       HTML, CSS, Java Script, XML.
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-xs-6 col-md-6">
+                      <div class="barre">
+                          <div class="bien"></div>
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-md-6">
+                      AD, DNS, DHCP, TCP/IP
+                  </div>
+              </div>
+
+          </div>
+
+
+          <div id="contact" width="100%">
+              <h2> Contact </h2> <br>
+
+              <address>
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span> <strong>Mr Younes Hani</strong> <br>
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> youness.hani@gmail.com <br>
+                  <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 0764196996  <br>
+                   Ch. d'Azilly 9,<br>
+         CH-1305 Penthalaz - Suisse
+              </address>            
+          </div>
+      </div>
   </body>
+
+  <footer>
+      <div class="row">
+          <div class="col-xs-6 col-md-6">
+                © Copyright 2018
+          </div>
+          <div class="col-xs-6 col-md-6">
+                <p> Crées par <a href="#">Younes Hani</a>  </p>
+          </div>
+      </div>
+  </footer>
+
 </html>
